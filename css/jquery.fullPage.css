@@ -1,4 +1,4 @@
-sadf/**
+/**
  * fullPage 2.6.6
  * https://github.com/alvarotrigo/fullPage.js
  * MIT licensed
@@ -82,7 +82,7 @@ html.fp-enabled,
 }
 .fp-controlArrow.fp-prev {
     left:0;
-    background: url(images/arrowsLeft.png) no-repeat;
+    background: url(../images/arrowsLeft.png) no-repeat;
 /*    left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
@@ -90,7 +90,7 @@ html.fp-enabled,
 }
 .fp-controlArrow.fp-next {
     right:0;
-   background: url(images/arrowsRight.png) no-repeat;
+   background: url(../images/arrowsRight.png) no-repeat;
 /*    right: 15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #000000;*/
