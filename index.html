@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+<!-- 	<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Kalam:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="jquery.fullPage.js"></script>
+	<script src="fullpagesetup.js"></script>
+	<title>Kale's Homepage</title>
+</head>
+<body>
+	<div id="paint_div" class="button">
+		<span id="paint_icon" class="fa fa-paint-brush" aria-hidden="true"></span>
+    </div>
+    <div id="clear_div" class="button">
+    	<span id="erase_icon" class="fa fa-eraser" aria-hidden="true"></span>
+    </div>
+    <img id="fish" src="images/fish.png">
+    <img id="turtle" src="images/turtle.png">
+    <img id="starfish" src="images/starfish.png">
+ 	<div id="fullpage">
+
+		<div class="section">
+				<h1>Welcome to my homepage</h1>
+			<div class="about_div">
+					<p class="about">Hi, my name is Richard Kale Sipes. While working in Seattle as a medical laboratory scientist, I witnessed the lively tech scene and decided to expand my skillset by getting a master's in Computer Science. Now I'm completing a thesis on machine learning and looking for a job. Scroll down to read about my projects and resume.</p>
+			</div>
+		</div>
+
+		<div class="section">
+				<div class="slide" data-anchor="slide1">
+					<h1>Projects</h1>
+					<ul id="project_header_list">
+						<li><a href="#" id="slideTwo">Personal Website : HTML/CSS/JS</a></li>
+						<li><a href="#" id="slideThree">Machine Learning : Octave/Numpy</a></li>
+						<li><a href="#" id="slideFour">QuickDraw : Java/AWS/DynamoDB/JSoup</a></li>
+						<li><a href="#" id="slideFive">NoSQL Comparison : MongoDB/Neo4j</a></li>
+						<li><a href="#" id="slideSix">Gnuplot Automation : gnuplot/Java</a></li>
+						<li><a href="#" id="slideSeven">Trivia Maze : SQL/Java : group</a></li>
+					</ul> 
+				</div>
+				<div class="slide" data-anchor="slide2">
+					<h1>Project: Personal Website</h1>
+					<img class="project_img" src="images/homepage.png">
+					<div class="about_div">
+						<p class="project_header">HTML/CSS/JS : individual</p>
+						<p class="about">This website is brought to you by <u><a target="_blank" href="http://girlswhocode.com">Girls Who Code</a></u>. Through this organization, I taught 20 high school students in the summer of 2015. Their confidence and playfullness motivated this site's design. Add some color to it by clicking the paint brush on the top left!<br/>Chrome/Firefox/Safari in full screen work best.</p>
+					</div>
+				</div>
+				<div class="slide" data-anchor="slide3">
+					<h1>Thesis: Machine Learning</h1>
+					<img class="project_img" src="images/bloodcells.png">
+					<div class="about_div">
+						<p class="project_header">Octave/Python/Numpy/Jupyter : individual</p>
+						<p class="about">I'm researching the benefits of using a convolutional neural network for fine-grained image classification of human white blood cells. Through this effort I've completed a <u><a target="_blank" href="https://www.coursera.org/learn/machine-learning/?utm_source=gg&utm_medium=sem&campaignid=325492147&adgroupid=27220030147&device=c&keyword=machine%20learning%20andrew%20ng&matchtype=b&network=g&devicemodel=&adpostion=1t1&hide_mobile_promo=&gclid=CLDKrM6SycwCFYqPfgodGQwHrA"/>machine learning course</a></u> offered by Stanford University. <u><a target="blank" href="https://www.coursera.org/account/accomplishments/records/29X3PM7VBG3T">Certificate here.</a></u></p>
+					</div>
+				</div>
+				<div class="slide" data-anchor="slide4">
+					<h1>Project: QuickDraw</h1>
+					<img class="project_img" src="images/tubes3.png">
+					<div class="about_div">
+						<p class="project_header">Java/AWS/DynamoDB/JSoup : individual</p>
+						<p class="about">QuickDraw makes phlebotomy quicker and less error prone by visually mapping test orders to specimen containers. This is achieved from the automated extraction of information from an online medical test directory and storing it in Amazon Web Service's DynamoDB. Querying on test orders delivers the information for a successful blood draw.</p>
+					</div>
+				</div>
+				<div class="slide" data-anchor="slide5">
+					<h1>Project: NoSQL Comparison</h1>
+					<img class="project_img" src="images/nosql.png">
+					<div class="about_div">
+						<p class="project_header">MongoDB/Neo4j : group</p>
+						<p class="about">My group used ~10^6 crime records from the City of Chicago to build single node instances of the NoSQL databases <u><a target="_blank" href="https://www.mongodb.org/">MongoDB</a></u> and <u><a target="_blank" href="http://neo4j.com/">Neo4j</a></u>. We designed schema, tested query execution times, optimized performance and documented the qualitative experience. The two databases performed similarly provided they were indexed.</p>
+					</div>
+				</div>
+				<div class="slide" data-anchor="slide6">
+					<h1>Project: Gnuplot Automation</h1>
+					<ul id="gnuplot_img_list">
+						<li><img class="gnuplot_img" src="images/plot1.png">
+						<li><img class="gnuplot_img" src="images/plot2.png">
+						<li><img class="gnuplot_img" src="images/plot3.png">
+					</ul>
+					<div class="about_div">
+						<p class="project_header">Gnuplot/Java : individual</p>
+						<p class="about">While taking a software engineering course focused on the model, simulate, visualize, and analyze paradigm, I realized visualizing dozens of graphs in Excel took too long. Using gnuplot and leveraging OOP principles allowed me to create a flexible, automated process for creating graphs.</p>
+					</div>
+				</div>
+				<div class="slide" data-anchor="slide7">
+					<h1>Project: Trivia Maze</h1>
+					<img class="project_img" src="images/triviamaze.png">
+					<div class="about_div">
+						<p class="project_header">SQL/Java : group</p>
+						<p class="about">My first group programming project! We created a trivia game that also incorporated maze/dugeon elements. I implemented a depth-first-search maze generation algorithm and coded the underlying SQLite database for the trivia questions. Group members used the java.awt package to make it look decent.</p>
+					</div>
+				</div>
+		</div>
+
+		<div class="section">
+			<h1>Resume</h1>
+			<a href="resume.pdf" class="pdf" alt="Resume"></a>
+		</div>		
+	<script type="text/javascript" src="jacksonpollock.js"></script>
+</body>
+</html>

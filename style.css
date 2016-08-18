@@ -1,0 +1,160 @@
+.button {
+	position: absolute;
+    text-align: center;
+	margin: 0.25%;
+    z-index: 1;
+    height: 5%;
+    width: 5%;
+    border-radius: 10%;
+    background-color: white;
+}
+.button:hover {
+    cursor: pointer;
+}
+#clear_div {
+	top: 5em;
+	left: 0em;
+}
+#paint_div {
+	top: 0.5em;
+	left: 0em;	
+}
+#fish {
+	position: absolute;
+	right: 0%;
+	bottom: 0%;
+	width: 8%;
+    height: auto;
+}
+#turtle {
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	width: 10%;
+    height: auto;
+}
+#starfish {
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	width: 8%;
+    height: auto;
+}
+.project_img {
+	display: block;
+	border-radius: 50%;
+	border:0.37em solid black;
+	margin: 0 auto;
+	width: 18%;
+    height: auto;
+}
+.quickdraw_img {
+	border-radius: 50%;
+	border:0.37em solid black;
+	width: 18%;
+    height: auto;
+}
+#gnuplot_img_list li {
+	display: inline;
+}
+.gnuplot_img {
+	border:0.37em solid black;
+	border-radius: 50%;
+	width: 15%;
+    height: auto;
+}
+.section {
+	position: relative;
+  	text-align:center;
+  	font-size: 1em;
+}
+.slide {
+	position: relative;
+}
+h1 {
+	font-family: 'Kalam', cursive;
+	font-weight: 800;
+	letter-spacing: 0.08em;
+	font-size: 2em;
+	text-shadow: 0.05em 0.05em 0.05em grey;
+}
+h2, h3, h4,  p, ul, li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em
+}
+
+#project_header_list {
+	font-weight: bold;
+	text-align: center;
+}
+.project_header{
+	font-weight: bold;
+	text-align: left;
+}
+.about_div{
+    margin: 0 auto;
+    width: 25em;
+    height: auto;
+    font-size: 1em;
+}
+.about {
+	margin: 0 auto;
+	text-align: left;
+}
+.fa {
+	font-size:3em;	
+	color:grey;
+	text-shadow: 0.05em 0.04em 0.06em; 
+}
+.fa:hover {
+	color:black;
+}
+.fa-paint-brush {
+	position: absolute;
+	top: 0.1em;
+	left: 0.12em;
+}
+.fa-ban {
+	position: absolute;
+	top: 0.1em;
+	left: 0.12em;
+}
+.fa-eraser {
+	position: absolute;
+	top: 0.1em;
+	left: 0.1em;
+}
+#project_header_list, #gnuplot_img_list {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	background-color: #ADD633;
+}
+.pdf {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAGFBMVEUAAACjo6NdXV1AQEDp6enExMSEhIQzMzMuCWROAAAAAXRSTlMAQObYZgAAAidJREFUeNrt2dtuhDAMBFBsj53//+MKUDtUu2pIwlR96DytloSzzgVWsL0NYB7dVG4LyWj3EikkmJozqg3FITSYnDHkirUmV9Au8Z8S8woHqxKdprMKBjphtpYa6VJtSoG3MzawRkaVbGcCA61HFeOlYgShMjIlNorMTGWOIlSUCBUlQkWJUFEiVJQIFS3C/nokIEWo6JHmQoQpLcJz6JFaQhifKoXIA6XYEsKgwi+JiMbUHNJHgQwhwvhvILmMIBMdBKuIsbcMMXZXIfz3CwnCQty5z2QIwP46ZNvLESO5hRbJvStklbC7p2xOeFkK0epijMd1COSbkQ1ikyG8jLsO4R3JdAinHmIEv1ZJg3xOtJeV6wnU9/iIvYUE4WjhaAUZknsh51kcKqTO9ZuHIkLwOU52UXDk2dtvsaEjrbwdccNDiPNQvX/QvY7Y5xhhL+AltYywENh3wKvqNLGGcCNmNYazkdyga4ifu53nRpB6qJLk2aISZ3HPzgnsS/DLUVQ8trpQHKWXCutIrm1GjkoUtk5mkYzLkx8NAq7ZVCGIy+pRIPwzt0sBAcI6zPidAKmjgmQXBRL7Z94HdUjw6ahuuGiIEDgvSzJkgzlfuisQ5h/5A4gpEeNx3YPO5Oabj3eGA74+Kbj92iGwXIh3xpPKvNHsRptmEwws7vzKbIzXYLwx1n0LuB7vDepy+lMKVxpUhAZja0ZhuxPUPOEYWPHuMRx3e098AKJJVQiIUAm4AAAAAElFTkSuQmCC);
+      background-size: 3em;
+      background-repeat: no-repeat;
+      width: 3em;
+      height: 3em;
+      color: grey;
+      background-color: white;
+      border: 0.5em;
+      text-align: center;
+      display: inline-block;
+}
+.pdf:hover {
+	color: black;
+	background-color: white;
+}
+.dot {
+	position: absolute;
+	z-index: -1;
+}
+
+
