@@ -1,9 +1,10 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
+
         //Navigation
         menu: false,
         lockAnchors: false,
-        anchors: ['page1', 'page2', 'page3', 'page4'],
+        anchors: ['section1', 'section2', 'section3'],
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -57,22 +58,28 @@ $(document).ready(function() {
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
 
-    $(document).on('click', '#slideTwo', function(){
-        $.fn.fullpage.moveTo('page2', 1);
+    $(document).on('click', '.section_2_link', function(){
+        $.fn.fullpage.moveTo('section2', 0);
     });
-    $(document).on('click', '#slideThree', function(){
-        $.fn.fullpage.moveTo('page2', 2);
+    $(document).on('click', '.section_3_link', function(){
+        $.fn.fullpage.moveTo('section3', 0);
     });
-    $(document).on('click', '#slideFour', function(){
-        $.fn.fullpage.moveTo('page2', 3);
+    $(document).on('click', '.slide_2_link', function(){
+        $.fn.fullpage.moveTo('section2', 1);
     });
-    $(document).on('click', '#slideFive', function(){
-        $.fn.fullpage.moveTo('page2', 4);
+    $(document).on('click', '.slide_3_link', function(){
+        $.fn.fullpage.moveTo('section2', 2);
     });
-    $(document).on('click', '#slideSix', function(){
-        $.fn.fullpage.moveTo('page2', 5);
+    $(document).on('click', '.slide_4_link', function(){
+        $.fn.fullpage.moveTo('section2', 3);
     });
-    $(document).on('click', '#slideSeven', function(){
-        $.fn.fullpage.moveTo('page2', 6);
+    $(document).on('click', '.slide_5_link', function(){
+        $.fn.fullpage.moveTo('section2', 4);
+    });
+    $(document).on('click', '.slide_6_link', function(){
+        $.fn.fullpage.moveTo('section2', 5);
+    });
+    $(document).on('click', '.slide_7_link', function(){
+        $.fn.fullpage.moveTo('section2', 6);
     });
 });
